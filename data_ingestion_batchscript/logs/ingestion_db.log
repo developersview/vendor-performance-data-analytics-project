@@ -1,0 +1,14 @@
+2025-07-07 01:35:12,090 - INFO - Ingesting begin_inventory.csv into database. Row Count: 206529
+2025-07-07 01:35:17,144 - INFO - Table 'begin_inventory' ingested successfully.
+2025-07-07 01:35:17,324 - INFO - Ingesting end_inventory.csv into database. Row Count: 224489
+2025-07-07 01:35:22,551 - INFO - Table 'end_inventory' ingested successfully.
+2025-07-07 01:35:25,393 - INFO - Ingesting purchases.csv into database. Row Count: 2372474
+2025-07-07 01:37:23,634 - INFO - Table 'purchases' ingested successfully.
+2025-07-07 01:37:23,756 - INFO - Ingesting purchase_prices.csv into database. Row Count: 12261
+2025-07-07 01:37:24,122 - INFO - Table 'purchase_prices' ingested successfully.
+2025-07-07 01:37:35,983 - INFO - Ingesting sales.csv into database. Row Count: 12825363
+2025-07-07 01:59:50,207 - INFO - Table 'sales' ingested successfully.
+2025-07-07 01:59:51,306 - INFO - Ingesting vendor_invoice.csv into database. Row Count: 5543
+2025-07-07 01:59:51,615 - INFO - Table 'vendor_invoice' ingested successfully.
+2025-07-07 01:59:51,616 - INFO - --------------Ingestion Complete------------
+2025-07-07 01:59:51,616 - INFO - Total Time Taken: 24.66 minutes
