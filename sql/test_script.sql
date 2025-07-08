@@ -12,3 +12,7 @@ select count(*) from purchases;
 select count(*) from sales;
 select count(*) from begin_inventory;
 select count(*) from end_inventory;
+
+SELECT tablename FROM pg_tables WHERE schemaname = 'public';
+
+SELECT * FROM pg_tables WHERE schemaname = 'public';
