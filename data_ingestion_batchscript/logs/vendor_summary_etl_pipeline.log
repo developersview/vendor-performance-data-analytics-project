@@ -30,3 +30,67 @@ dtype: object
 2025-07-10 00:35:22,384 - INFO - Vendor summary data ingested successfully into 'vendor_sales_summary' table.
 2025-07-10 00:35:22,384 - INFO - --------------ETL Pipeline Complete------------
 2025-07-10 00:35:22,384 - INFO - Total Time Taken: 0.12 minutes
+2025-07-10 20:05:44,140 - INFO - Creating database engine...
+2025-07-10 20:05:44,203 - INFO - Database engine created successfully.
+2025-07-10 20:05:44,203 - INFO - Starting ETL pipeline for vendor summary data...
+2025-07-10 20:05:44,203 - INFO - Getting vendor summary data...
+2025-07-10 20:06:01,109 - INFO - Vendor summary data retrieved successfully.
+2025-07-10 20:06:01,109 - INFO - Cleaning vendor summary data...
+2025-07-10 20:06:01,119 - INFO - Vendor summary data cleaned successfully.
+2025-07-10 20:06:01,119 - INFO - Retrieved 10514 records from vendor summary data.
+2025-07-10 20:06:01,120 - INFO - Columns in transformed vendor summary data: 
+vendornumber                 int64
+vendorname                  object
+description                 object
+brand                        int64
+purchaseprice              float64
+volume                     float64
+actual_price               float64
+total_purchase_quantity    float64
+total_purchase_dollars     float64
+totalsalesdollars          float64
+totalsalesprice            float64
+totalsalesquantity         float64
+totalexcisetax             float64
+freightcost                float64
+grossprofit                float64
+profitmargin               float64
+stockturnover              float64
+salestopurchaseratio       float64
+dtype: object
+2025-07-10 20:06:01,120 - INFO - Ingesting cleaned vendor summary data into the database...
+2025-07-10 20:06:01,917 - INFO - Vendor summary data ingested successfully into 'vendor_sales_summary' table.
+2025-07-10 20:06:01,917 - INFO - --------------ETL Pipeline Complete------------
+2025-07-10 20:06:01,917 - INFO - Total Time Taken: 0.30 minutes
+2025-07-10 20:18:14,893 - INFO - Creating database engine...
+2025-07-10 20:18:15,076 - INFO - Database engine created successfully.
+2025-07-10 20:18:15,076 - INFO - Starting ETL pipeline for vendor summary data...
+2025-07-10 20:18:15,076 - INFO - Getting vendor summary data...
+2025-07-10 20:18:36,631 - INFO - Vendor summary data retrieved successfully.
+2025-07-10 20:18:36,631 - INFO - Cleaning vendor summary data...
+2025-07-10 20:18:36,648 - INFO - Vendor summary data cleaned successfully.
+2025-07-10 20:18:36,648 - INFO - Retrieved 10514 records from vendor summary data.
+2025-07-10 20:18:36,648 - INFO - Columns in transformed vendor summary data: 
+vendornumber                 int64
+vendorname                  object
+description                 object
+brand                        int64
+purchaseprice              float64
+volume                     float64
+actual_price               float64
+total_purchase_quantity    float64
+total_purchase_dollars     float64
+totalsalesdollars          float64
+totalsalesprice            float64
+totalsalesquantity         float64
+totalexcisetax             float64
+freightcost                float64
+grossprofit                float64
+profitmargin               float64
+stockturnover              float64
+salestopurchaseratio       float64
+dtype: object
+2025-07-10 20:18:36,652 - INFO - Ingesting cleaned vendor summary data into the database...
+2025-07-10 20:18:39,742 - INFO - Vendor summary data ingested successfully into 'vendor_sales_summary' table.
+2025-07-10 20:18:39,742 - INFO - --------------ETL Pipeline Complete------------
+2025-07-10 20:18:39,742 - INFO - Total Time Taken: 0.41 minutes

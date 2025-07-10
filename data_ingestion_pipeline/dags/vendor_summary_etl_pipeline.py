@@ -85,7 +85,7 @@ def get_vendor_summary(engine):
             
         FROM
             PurchaseSummary ps
-                JOIN
+                LEFT JOIN
             SalesSummary ss ON ps.vendornumber = ss.vendorno AND ps.brand = ss.brand
                 LEFT JOIN
             FrieghtSummary fs ON ps.vendornumber = fs.vendornumber
