@@ -11,5 +11,4 @@
 *.sig
 
 pkg/
-src/
-/data/
+data/
