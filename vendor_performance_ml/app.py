@@ -4,9 +4,12 @@ import numpy as np
 import joblib
 import os
 
-regression_model = joblib.load(os.path.join("models", "regression_model.pkl"))
-clustering_model = joblib.load(os.path.join("models", "clustering_model.pkl"))
-scaler = joblib.load(os.path.join("models", "scaler.pkl"))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODELS_DIR = os.path.join(BASE_DIR, "models")
+
+regression_model = joblib.load(os.path.join(MODELS_DIR, "regression_model.pkl"))
+clustering_model = joblib.load(os.path.join(MODELS_DIR, "clustering_model.pkl"))
+scaler = joblib.load(os.path.join(MODELS_DIR, "scaler.pkl"))
 
 # List of features
 features = [
