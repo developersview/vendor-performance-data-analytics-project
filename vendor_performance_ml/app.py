@@ -2,10 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import os
 
-regression_model = joblib.load('models/regression_model.pkl')
-clustering_model = joblib.load('models/clustering_model.pkl')
-scaler = joblib.load('models/scaler.pkl')
+regression_model = joblib.load(os.path.join("models", "regression_model.pkl"))
+clustering_model = joblib.load(os.path.join("models", "clustering_model.pkl"))
+scaler = joblib.load(os.path.join("models", "scaler.pkl"))
 
 # List of features
 features = [
