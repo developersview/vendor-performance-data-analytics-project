@@ -1,17 +1,19 @@
-select * from vendor_invoice limit 100;
-select * from purchase_prices limit 100;
-select * from purchases limit 100;
-select * from sales limit 100;
-select * from begin_inventory limit 100;
-select * from end_inventory limit 100;
+SELECT * FROM vendor_invoice LIMIT 100;
+SELECT * FROM purchase_prices LIMIT 100;
+SELECT * FROM purchases LIMIT 100;
+SELECT * FROM sales LIMIT 100;
+SELECT * FROM begin_inventory LIMIT 100;
+SELECT * FROM end_inventory LIMIT 100;
+SELECT * FROM vendor_sales_summary LIMIT 100;
 
 
-select count(*) from vendor_invoice;
-select count(*) from purchase_prices;
-select count(*) from purchases;
-select count(*) from sales;
-select count(*) from begin_inventory;
-select count(*) from end_inventory;
+SELECT COUNT(*) FROM vendor_invoice;
+SELECT COUNT(*) FROM purchase_prices;
+SELECT COUNT(*) FROM purchases;
+SELECT COUNT(*) FROM sales;
+SELECT COUNT(*) FROM begin_inventory;
+SELECT COUNT(*) FROM end_inventory;
+SELECT COUNT(*) FROM vendor_sales_summary
 
 SELECT tablename FROM pg_tables WHERE schemaname = 'public';
 
