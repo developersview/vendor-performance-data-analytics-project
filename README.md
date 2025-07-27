@@ -71,11 +71,6 @@ url: https://vendorperformanceprediction.streamlit.app/
 
 ---
 
-## 🙌 Acknowledgment  
-This project is inspired by the fantastic work of [Ayushi Mishra](https://www.linkedin.com/in/ayushi-mishra-analytics). Expanded to include complete pipelines, ML models, and BI capabilities for real-world enterprise use.
-
----
-
 ## 📬 Contact  
 Feel free to connect or reach out for collaboration or feedback:  
 **Pranoy Chakraborty** | [LinkedIn](https://www.linkedin.com/in/pranoychakraborty)
